@@ -53,8 +53,9 @@ public class StudentTest {
 		  flag=true;
 	  }//try
 	  catch(HibernateException he) {
-		  he.printStackTrace();
 		  flag=false;
+		 // he.printStackTrace();
+		  
 	  }//catch
 	  finally {
 		    if(flag=true) {
