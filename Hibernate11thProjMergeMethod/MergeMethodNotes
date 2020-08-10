@@ -1,0 +1,7 @@
+Merge Method::==
+_____________
+      this method returns the object because its return type is Object
+      if the record is not available this method will perform insert operation
+      if the record is there and we want to update some property that time this method will perform update operation
+      this method will uses level 1 cache and when the data already available it just override the current data on previous data
+      

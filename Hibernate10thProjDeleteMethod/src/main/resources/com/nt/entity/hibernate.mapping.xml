@@ -4,7 +4,9 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
         <hibernate-mapping>
         <class name="com.nt.entity.Product" table="PRODUCT"  >
-        <id name="pid" column="PID"/>
+        <id name="pid" column="PID">
+        <generator class="increment"/>
+        </id>
         <property name="pname" column="PNAME"/>
         <property name="price" column="PRICE"/>
         <property name="mfgdate" column="MFGDATE"/>
