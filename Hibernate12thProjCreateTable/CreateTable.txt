@@ -1,0 +1,14 @@
+we can create the schema(logical db table) by using hibernate
+for that we have to configure "<property name="hbm2ddl.auto">create</property>". in Hibernate configuration file
+in real time when we are developing project and in middle we have to change db software that time dynamically we can create db table though we dont know  much about that db s/w.
+
+
+the  values for "<property name="hbm2ddl.auto"> is.
+     create.
+     update.
+     validate.
+     create-drop.
+     <property name="hbm2ddl.auto">create</property>
+                                                                          update
+                                                                          validate
+                                                                          create-drop.

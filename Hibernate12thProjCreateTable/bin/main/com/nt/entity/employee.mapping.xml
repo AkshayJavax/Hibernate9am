@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+     <hibernate-mapping>
+     <class name="com.nt.entity.Employee" table="EMPLOYEE">
+     <id name="eno" column="ENO" length="5" type="int"/>
+     <property name="ename" column="ENAME" length="20" type="string" unique-key="true" not-null="true"/>
+     <property name="eadd" column="EADD" length="20" type="string"/>
+     <property name="desg" column="DESG" length="20" type="string"/>
+     <property name="salary" column="SALARY" type="int" length="20"/>
+     
+     </class>
+     </hibernate-mapping>
